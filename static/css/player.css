@@ -1,0 +1,124 @@
+@media (max-width: 500px) {
+
+    .box {
+        letter-spacing: 1.5px;
+        border-radius: 4px;
+        border: solid 1px #7b7a7a;
+        max-width: 300px;
+        background: #333333;
+        color: white;
+        padding: 0;
+        margin-bottom: 20px;
+        height: 90px;
+    }
+    
+
+}
+
+
+.box {
+    letter-spacing: 1.5px;
+    border-radius: 4px;
+    border: solid 1px #7b7a7a;
+    max-width: 748px;
+    background: #333333;
+    color: white;
+    padding: 0;
+    margin-bottom: 20px;
+    height: 108px;
+}
+
+.button {
+    width: 53px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 12px;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+
+.play-button {
+    -webkit-text-size-adjust: none;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 4px;
+    padding: 0;
+    border: 0;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 45px;
+    display: block;
+}
+
+.play-button:hover {
+    filter: brightness(80%);
+}
+
+
+
+
+#collapse {
+
+    -webkit-text-size-adjust: none;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    color: #fff;
+    margin: 0px;
+    max-height: 40px;
+    overflow: hidden;
+    box-shadow: none;
+    margin-bottom: 0;
+    opacity: 0;
+    height: 0;
+    border: 0;
+    padding: 0;
+    transition: all 1s 0s;
+
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    margin-left: 90px;
+
+}
+
+.steam_train_head {
+    margin-bottom: 0px;
+    margin-top: 16px;
+
+}
+
+/* Progress */
+.progress-container {
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 28px 89px;
+  height: 4px;
+  width: 84%;
+  font-size: 14px;
+}
+
+.progress {
+  background: #756b6b;
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
+}
+
+.duration-wrapper {
+  position: relative;
+  top: -25px;
+  display: flex;
+  justify-content: space-between;
+}
+

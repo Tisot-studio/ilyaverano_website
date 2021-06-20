@@ -1,0 +1,35 @@
+#home {
+    padding: 0;
+}
+
+
+#home  h2#thnk {
+    font-size: 19px;
+    margin: auto;
+    text-align: center;
+}
+
+.menu-wrap {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+ul.nav_bar {
+    top: 15px;	
+    display: none;
+    text-align: center;
+    list-style: none;
+    font-size: 15px;
+    margin: 10px;
+}
+
+#push_left {
+    display: none;
+}
+
+ul.icons {
+    margin-left: 20px;
+}
